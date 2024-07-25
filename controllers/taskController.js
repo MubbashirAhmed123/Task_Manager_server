@@ -1,6 +1,4 @@
-const Task = require('../models/Task');
-
-
+const Task=require('../models/taskModel')
 
 exports.getTasks = async (req, res) => {
   try {
@@ -10,8 +8,6 @@ exports.getTasks = async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 };
-
-
 
 
 
