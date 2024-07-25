@@ -15,7 +15,7 @@ const app=express()
 app.use(express.json())
 
 const corsConfig = {
-    origin: "*",
+    origin: "https://task-manager-app-nu-taupe.vercel.app/",
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"],
 }
